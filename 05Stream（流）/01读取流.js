@@ -13,6 +13,7 @@ readerStream.setEncoding('UTF8');
 // 4，读取数据的回调
 readerStream.on('data', function(chunk) {
     data += chunk;
+    console.log(data);
 });
 //5,读取数据结束后的回调
 readerStream.on('end',function(){
