@@ -1,5 +1,5 @@
 /**
- * Created by Administrator on 2017/12/21 0021.  拷贝缓冲区
+ * Created by Administrator on 2017/12/21 0021.  剪切缓冲区
  */
 // 1,创建缓存
 var buffer1 = new Buffer('hello world');
