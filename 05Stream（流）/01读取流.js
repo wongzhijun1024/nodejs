@@ -23,5 +23,4 @@ readerStream.on('end',function(){
 readerStream.on('error', function(err){
     console.log(err.stack);
 });
-
 console.log("程序执行完毕");

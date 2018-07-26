@@ -4,7 +4,7 @@
 //1,引入fs模块
 var fs = require("fs");
 //2,设置数据
-var data = 'hello world!呵呵';
+var data = 'hello world!呵呵好吧哈';
 
 // 3，创建一个可以写入的流，写入到文件 output.txt 中
 var writerStream = fs.createWriteStream('output.txt');
