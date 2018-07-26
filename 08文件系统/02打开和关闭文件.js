@@ -3,7 +3,7 @@ var fs = require("fs");
 
 // 2，异步打开文件
 console.log("准备打开文件！");
-fs.open('input.txt', 'r+', function(err, fd) {
+fs.open('input.txt', 'a', function(err, fd) {
     if (err) {
         return console.error(err);
     }
