@@ -1,7 +1,7 @@
 var fs = require("fs");
 
-console.log("创建目录 /tmp/test/");
-fs.mkdir("/tmp/test/",function(err){
+console.log("创建目录 test/");
+fs.mkdir("test/",function(err){
     if (err) {
         return console.error(err);
     }
